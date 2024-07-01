@@ -1,8 +1,4 @@
-//Let's add support for Ruby, PHP, and Swift.
 
-Step 1: Update the Compiler Configuration
-Assuming there's a configuration file languages.json, add support for Ruby, PHP, and Swift:
-//
 {
   "languages": {
     "ruby": {
