@@ -1,0 +1,21 @@
+Let's add support for Ruby, PHP, and Swift.
+
+Step 1: Update the Compiler Configuration
+Assuming there's a configuration file languages.json, add support for Ruby, PHP, and Swift:
+
+{
+  "languages": {
+    "ruby": {
+      "compile": "ruby -c {source_file}",
+      "run": "ruby {executable}"
+    },
+    "php": {
+      "compile": "php -l {source_file}",
+      "run": "php {executable}"
+    },
+    "swift": {
+      "compile": "swiftc {source_file} -o {executable}",
+      "run": "{executable}"
+    }
+  }
+}
